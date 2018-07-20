@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.grey-backgroud {
+  width: 90%;
+  background: rgb(221, 212, 212);
+  display: inline-block;
+  padding: 10px;
+}
+
+.box {
+  width: 180px;
+  height: 280px;
+  background: orange;
+  margin: 5px;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.box:hover {
+  background: red;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
